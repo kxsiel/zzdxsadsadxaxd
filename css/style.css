@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(5, 6, 12);
+}
+
+div.main-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    margin-top: 0;
+
+}
+
+h1.text-main-1{
+    color: #5e7ff8;
+    text-shadow: #5e7ff89a 0px 0px 30px;
+    font-family: Climate Crisis;
+    font-size: 91px;
+    font-weight: bold;
+    
+}
+
+h2.text-main-2{
+    color: #ffffff;
+    text-shadow: #ffffff9a 0px 0px 8px;
+    font-family: inter;
+    font-weight: 100;
+    font-size: 20.6px;
+    position: relative;
+    top: -93px;
+}
+
+.myButton {
+    position: relative;
+    top: -100px;
+	background-color: #5e7ff8;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: Climate Crisis;
+	font-size:17px;
+    font-weight: medium;
+    border: #5e7ff800 solid 2px;
+    box-shadow: #5e7ff888 0px 0px 25px;
+	padding:13px 180px;
+	text-decoration:none;
+    transition: 0.5s;
+}
+.myButton:hover {
+	background-color: transparent;
+    border: #5e7ff8 solid 2px;
+    color: #5e7ff8;
+    text-shadow: #5e7ff89a 0px 0px 30px;
+}
+.myButton:active {
+	background-color: #5e7ff8;
+    border: #5e7ff800 solid 2px;
+    color: #ffffff;
+}
