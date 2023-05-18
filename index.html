@@ -4,7 +4,7 @@
     <p id="ip-address"></p>
     <style>
         body {
-            background: url('https://i.imgur.com/Gxtzb3o.png') center/cover no-repeat;
+            background: url('https://i.imgur.com/v1TP77q.png') center/cover no-repeat;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -18,7 +18,7 @@
             fetch('https://api.ipify.org/?format=json')
                 .then(response => response.json())
                 .then(data => {
-                    document.getElementById('ip-address').textContent = "" + data.ip;
+                    document.getElementById('ip-address').textContent = "6000 puffs vape" + data.ip;
                 })
                 .catch(error => console.error(error));
         </script>
